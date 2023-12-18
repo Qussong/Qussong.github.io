@@ -290,3 +290,6 @@ defaults:
       comments: true
       share: false #true(default)
       related: true
+
+# Custom
+futrue: true
