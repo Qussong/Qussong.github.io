@@ -25,23 +25,24 @@ layout: archive
         {% include archive-single.html type=entries_layout %}
       {% endfor %}
     </div>
+    <script src="https://giscus.app/client.js"
+    data-repo="Qussong/Qussong.github.io"
+    data-repo-id="R_kgDOK7NRdw"
+    data-category="Comments"
+    data-category-id="DIC_kwDOK7NRd84Cb2bx"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="ko"
+    crossorigin="anonymous"
+    async>
+    </script>
+    <div class="giscus" >
+    </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
-  <script src="https://giscus.app/client.js"
-  data-repo="Qussong/Qussong.github.io"
-  data-repo-id="R_kgDOK7NRdw"
-  data-category="Comments"
-  data-category-id="DIC_kwDOK7NRd84Cb2bx"
-  data-mapping="pathname"
-  data-strict="0"
-  data-reactions-enabled="1"
-  data-emit-metadata="0"
-  data-input-position="bottom"
-  data-theme="preferred_color_scheme"
-  data-lang="ko"
-  crossorigin="anonymous"
-  async>
-  </script>
-  <div class="giscus" >
-  </div>
+
 {% endfor %}
