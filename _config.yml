@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Gihoon"
   avatar           : "/assets/images/seol.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : <span style="color:yellowgreen">"_하고싶은거 하면서 살기~_"
+  bio              : <span style="color:violet">"_하고싶은거 하면서 살기~_"
   location         : "South Korea"
   # email            : kih0976@gmail.com
   links:
