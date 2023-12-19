@@ -9,7 +9,7 @@ main:
   - title: "Search"
     url: /search/
 
-docs:
+docs_sample:
   - title: "Menu_1"
     children:
       - title: "Category"
@@ -17,6 +17,14 @@ docs:
       - title: "Tag"
         url: /tags/
   - title: "Menu_2"
+    children:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+
+docs:
+  - title: "Menu"
     children:
       - title: "Category"
         url: /categories/
