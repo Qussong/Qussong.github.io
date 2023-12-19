@@ -75,7 +75,7 @@ google:
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-naver_site_verification  :
+naver_site_verification  : "345a2a22edf53392f6452a68d27afb68c32338e0" # 네이버 검색엔진 등록
 yandex_site_verification :
 baidu_site_verification  :
 
