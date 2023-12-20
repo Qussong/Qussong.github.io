@@ -18,7 +18,8 @@ $sans-serif: -apple-system, "Noto Sans KR"
    , BlinkMacSystemFont 
    , "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande"
    , Arial, sans-serif !default;
-$monospace: "Nanum Brush Script", Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$nanum: "Nanum Brush Script";
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
