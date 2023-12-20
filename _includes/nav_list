@@ -52,8 +52,8 @@
         {% for category in site.categories %}
           {% if category[1].size == i %}
             <ul style="padding-top: 0px; padding-bottom: 0px;">
-              <a href="/categories/#{{ category[0] | slugify }}">
-                <strong style="font-size: 14px;">{{ category[0] }}</strong> <span class="taxonomy__count" style="font-size: 12px;">{{ i }}</span>
+              <a href="/categories/#{{ category[0] | slugify }}" style="font-family: Nanum Brush Script;">
+                <strong style="font-size: 18px;">{{ category[0] }}</strong> <span class="taxonomy__count" style="font-size: 20px;">{{ i }}</span>
               </a>
             </ul>
           {% endif %}
@@ -73,8 +73,8 @@
       {% for tag in site.tags %}
         {% if tag[1].size == i %}
           <ul style="padding-top: 0px; padding-bottom: 0px;">
-            <a href="/tags/#{{ tag[0] | slugify }}">
-              <strong style="font-size: 14px;">{{ tag[0] }}</strong> <span class="taxonomy__count" style="font-size: 12px;">{{ i }}</span>
+            <a href="/tags/#{{ tag[0] | slugify }}" style="font-family: Nanum Brush Script;">
+              <strong style="font-size: 18px;">{{ tag[0] }}</strong> <span class="taxonomy__count" style="font-size: 20px;">{{ i }}</span>
             </a>
           </ul>
         {% endif %}
