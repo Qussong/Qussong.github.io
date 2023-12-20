@@ -11,20 +11,6 @@ main:
   - title: "Search"
     url: /search/
 
-docs_sample:
-  - title: "Menu_1"
-    children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
-  - title: "Menu_2"
-    children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
-
 docs:
   - title: "Menu"
     children:
@@ -32,3 +18,11 @@ docs:
         url: /categories/
       - title: "Tag"
         url: /tags/
+      - title: "Year"
+        url: /year-archive/
+
+counts:
+  - title: "Category"
+    use: true   # false
+  - title: "Tag"
+    use: true   # false

@@ -280,7 +280,7 @@ defaults:
       toc_label: 목차
       toc_icon: "fa-solid fa-cat"
       # sidebar:
-      #     nav: "docs_sample"
+      #     nav: "docs"
 
 # Custom
 future: true
