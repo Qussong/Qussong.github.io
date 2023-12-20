@@ -268,12 +268,19 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false   # post'side-bar on/off
       read_time: true
       comments: true
-      share: false #true(default)
+      share: false            #true(default)
       related: true
       show_date: true
+      search: true            # 해당 post 검색여부 on/off
+      toc: true               # table of contents
+      toc_sticky: true
+      toc_label: 목차
+      toc_icon: "fa-solid fa-cat"
+      # sidebar:
+      #     nav: "docs_sample"
 
 # Custom
 future: true
