@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark"
 locale                   : ko-KR #"en-US"
 title                    : "Hello : )"
 title_separator          : "|"
-subtitle                 : "____/ᐠ｡‸｡ᐟ✿\\___ver 1.0____" # site tagline that appears below site title in masthead
+subtitle                 : "____/ᐠ｡‸｡ᐟ✿___ver 1.0" # site tagline that appears below site title in masthead
 name                     : "Gihoon"
 description              : "Hello ;)"
 url                      : "https://qussong.github.io/"
