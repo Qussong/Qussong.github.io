@@ -6,4 +6,5 @@ author_profile: true
 sidebar_main: true
 sidebar:
     nav: "counts"
+entries_layout: grid
 ---
