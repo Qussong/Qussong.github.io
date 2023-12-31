@@ -22,7 +22,7 @@ docs:
         url: /year-archive/
 
 counts:
-  - title: "Category"
+  - title: "category"
     use: true   # false
-  - title: "Tag"
+  - title: "tag"
     use: true   # false
